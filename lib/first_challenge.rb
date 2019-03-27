@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-  contacts["Freddy Mercury"].each do |person, data|
+  contacts["Freddy Mercury"].each do |attribute, value|
 
     if attribute == "strawberry"
       value.delete_if do |flavor|
