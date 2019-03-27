@@ -19,7 +19,7 @@ def first_challenge
   end
 
   data.each do |attribute, value|
-    puts "#{attribute}: value"
+    
 
     if attribute == "strawberry"
       value.delete_if do |flavor|
